@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="erros.png" />
+    <None Remove="Fundo transparente 1900x1900.png" />
+    <None Remove="verifica.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="erros.png" />
+    <Resource Include="Fundo transparente 1900x1900.png" />
+    <Resource Include="verifica.png" />
+  </ItemGroup>
+
+</Project>

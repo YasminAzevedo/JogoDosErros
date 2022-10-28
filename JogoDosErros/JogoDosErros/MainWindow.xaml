@@ -1,0 +1,38 @@
+﻿<Window x:Class="JogoDosErros.MainWindow"
+        WindowStyle="None"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:JogoDosErros"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid Margin="0,52,0,0" Visibility="Visible">
+        <Grid.Background>
+            <ImageBrush ImageSource="/erros.png"/>
+        </Grid.Background>
+        <Image x:Name="imgAcerto9" Margin="200,-310,0,0" Source="/verifica.png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" Height="63" Width="63" Visibility="Hidden">
+            <Image.OpacityMask>
+                <ImageBrush ImageSource="/verifica.png"/>
+            </Image.OpacityMask>
+        </Image>
+        <Image x:Name="imgAcerto2" Margin="650,-340,0,0" Source="/verifica.png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" Height="64" Width="64" Visibility="Hidden"/>
+        <Image x:Name="imgAcerto5" Margin="450,30,0,0" Source="/verifica.png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" Height="63" Width="63" Visibility="Hidden"/>
+        <Image x:Name="imgAcerto6" Margin="650,40,0,0" Source="/verifica.png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" Height="63" Width="63" Visibility="Hidden"/>
+        <Image x:Name="imgAcerto3" Margin="160,-200,0,0" Source="/verifica.png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" Height="63" Width="63" Visibility="Hidden"/>
+        <Image x:Name="imgAcerto7" Margin="580,300,0,0" Source="/verifica.png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" Height="63" Width="63" Visibility="Hidden"/>
+        <Image x:Name="imgAcerto4" Margin="570,-120,0,0" Source="/verifica.png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" Height="63" Width="63" Visibility="Hidden"/>
+        <TextBlock x:Name="txtJogo1" HorizontalAlignment="Left" Height="28" Margin="304,-51,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="196" FontSize="22"><Run Language="pt-br" Text="Encontre os 7 erros"/></TextBlock>
+        <Image x:Name="imgAcerto1" Margin="200,-350,0,0" Source="/verifica.png" Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" Height="63" Width="64" Visibility="Hidden"/>
+        <Image x:Name="btnErro2" HorizontalAlignment="Center" Height="26" Margin="600,-350,0,0" VerticalAlignment="Center" Width="54" Source="/Fundo transparente 1900x1900.png" MouseDown="erro2_Click"/>
+        <Image x:Name="btnErro1" HorizontalAlignment="Center" Height="29" Margin="200,-355,0,0" VerticalAlignment="Center" Width="66" Source="/Fundo transparente 1900x1900.png" MouseDown="erro1_Click"/>
+        <Image x:Name="btnErro3" HorizontalAlignment="Center" Height="26" Margin="150,-200,0,0" VerticalAlignment="Center" Width="40" Source="/Fundo transparente 1900x1900.png" MouseDown="erro3_Click"/>
+        <Image x:Name="btnErro5" HorizontalAlignment="Center" Height="26" Margin="530,-120,0,0" VerticalAlignment="Center" Width="54" Source="/Fundo transparente 1900x1900.png" MouseDown="erro4_Click"/>
+        <Image x:Name="btnErro4" HorizontalAlignment="Center" Height="26" Margin="430,50,0,0" VerticalAlignment="Center" Width="44" Source="/Fundo transparente 1900x1900.png" MouseDown="erro5_Click"/>
+        <Image x:Name="btnErro6" HorizontalAlignment="Center" Height="26" Margin="650,45,0,0" VerticalAlignment="Center" Width="39" Source="/Fundo transparente 1900x1900.png" MouseDown="erro6_Click"/>
+        <Image x:Name="btnErro6_Copy" HorizontalAlignment="Center" Height="40" Margin="530,300,0,0" VerticalAlignment="Center" Width="97" Source="/Fundo transparente 1900x1900.png" MouseDown="erro7_Click"/>
+
+    </Grid>
+    
+</Window>
+
